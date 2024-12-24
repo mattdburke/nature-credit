@@ -18,12 +18,12 @@ Sovereign debt data from the Bank of International Settlements
 <!-- - `corporateDebt.csv` -->
 - `sovereignDebt.csv`
 
-Data from Table 3 in "Storm Alert: Natural Disasters Can Damage Sovereign Creditworthiness" by Standard & Poor's
+Data from Table 3 in "Storm Alert: Natural Disasters Can Damage Sovereign Creditworthiness" by Standard & Poor's, article linked [here](https://www.spglobal.com/ratings/en/research/articles/150910-storm-alert-natural-disasters-can-damage-sovereign-creditworthiness-9327571)
 - `T3.csv`
 
 Fundemental economic data
 - `economic.csv`
-Data on the economic fundementals of the sovereigns under study. The variables of interest in this dataset are the following;
+Data on the economic fundementals of the sovereigns under study. This data is obtained via the sovereign risk indicator platform from S&P [here](https://disclosure.spglobal.com/sri/). We detail the permissions for this data [here](s&p_permission.md). The same data is used in [Klusak et al (2023)](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2023.4869). The variables of interest in this dataset are the following;
 * **CountryName**: List of country names
 * **Year**: Year of observation
 * **scale20**: 1-20 scale corresponding to S&P Sovereign rating scale
@@ -37,7 +37,7 @@ Data on the economic fundementals of the sovereigns under study. The variables o
 Data from the St Louis Fed to give the option-adjusted spreads data. The headers in this file provide the code for the specific series used. 
 -  `FRED_OAS_data_raw.csv`
 
-Data input manually from the World Bank to construct `Ethiopia_data.csv`. This is done using the code [here](src\construct_ethiopia_data.r)
+Data input manually from the World Bank to construct `Ethiopia_data.csv`. This is done using the code [here](../src/clean_raw_data_1.r)
 -   `Ethiopia_data.csv`
 
 We repeat a similar exercise for Madagascar. 
