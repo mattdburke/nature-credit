@@ -12,7 +12,7 @@ To run this code, open `main.r` in the root directory and type in the path to th
 - Note that this directory already has all the derived data, plots etc produced. You may wish to test the code by deleting all of the output and then re-running with just the data in the `data` folder populated.
 - To download R, follow the instructions on [R project]([https://www.r-project.org/])
 - There isn't necessarily any expected output to be had on the R terminal, only that the code completes within about 25 minutes on a normal PC. However, you can expect that the files in `derived_data`, `outputs` and `plots` be populated.
-- For a brief description of each R file, refer to [code description]([src/code_description.md]), data is also described [here](data/data_description.md)
+- For a brief description of each R file, refer to [code description](src/code_description.md), data is also described [here](data/data_description.md)
 
 ## Reproducing plots
 
