@@ -1,4 +1,4 @@
-setwd("C:/Users/mattb/OneDrive/GitHub/nature-credit")
+setwd("path/to/repo/nature-credit")
 source("src/lib.r")
 source("src/get_GDP_data.r")
 source("src/clean_raw_data_1.r")

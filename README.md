@@ -4,6 +4,8 @@
 
 We directly incorporate biodiversity and nature-related risks into assessments of sovereign creditworthiness. We extend S&P Global’s sovereign ratings methodology to assess creditworthiness of 23 nations under a range of scenarios relating to changes in tropical timber production, wild pollination services, and marine fisheries.
 
+![main result](plots/figure1_B.jpeg)
+
 ## Running the code
 
 To run this code, open `main.r` in the root directory and type in the path to the root directory in the `setwd()` command. Then, you can run the sequence of source code commands, or simply run `main.r` as a `source(main.r)`. You may also run any element of the code, but just be conscious that some of it is dependent on previous files and data being produced. 
@@ -16,7 +18,7 @@ To run this code, open `main.r` in the root directory and type in the path to th
 
 ## Reproducing plots
 
-To directly reproduce specific plots, you may use the command `figure1_B` to produce figure1_B, and so on. Alternatively, run the script `source(plots.r)`.
+To directly reproduce specific plots, you may use the command `figure1_B` to produce figure1_B, and so on. Alternatively, run the script `source(plots.r)` to reproduce each plot.
 
 ## System requirements
 
@@ -79,7 +81,7 @@ loaded via a namespace (and not attached):
 - This code, in various forms, runs fine on most versions of R and will produce the results without the need for many of the libraries. Some of these facilitate additional tests or producing the graphs etc. 
 - There isn't a non-standard hardware requirement.
 
-**Note** - Some of the code has redundancies, this will be cleaned up - however the main result is unaffected.
+**Note** - This code is in development as this research remains a working paper. 
 
 **Citation:**
 
@@ -91,3 +93,7 @@ If you use our data please cite,
   year={2024}
 }
 ```
+
+**Support**: For support reproducing this result if the code doesn't work please [email me](mailto:matt.burke@sheffield.ac.uk)
+
+**Fun Fact**: We are quite happy that our model estimates a rating for Madagascar of 5.6/20 (where 20=AAA), when in 2022 (out of our model training data) S&P rated Madagascar as a 5/20. We consider this good model validation.
